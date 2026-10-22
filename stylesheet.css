@@ -1,0 +1,203 @@
+.wrapper_index {
+  display: grid;
+	grid-template-columns: 1fr 3fr 4fr;
+	grid-template-rows: 1fr 1fr auto;
+	grid-auto-rows: 100px;
+	margin:0px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.wrapper_index {
+  border-radius: 5px;
+  background-color: #fff6d9;
+}
+
+.wrapper_index > div {
+  border-radius: 1px;
+  padding: 1em;
+  color: #070707;
+}
+.title{
+	grid-column-start: 1;
+	grid-column-end: ;
+	grid-row-start:1;
+	grid-row-end:auto;
+	
+	border-top: solid;
+	border-left:solid;
+	border-bottom:solid;
+	background-color: #97A0ff;
+	font-family: "New Rocker", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:1.5em;
+	display:flex;
+	margin:left: 2em;
+	margin-top:.5em;
+	gap:3.2em;
+}
+.box1 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start:1;
+	grid-row-end:1;
+	text-align: center;
+	border: solid;
+	background-color: #97A0ff;
+	font-family: "New Rocker", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:1.5em;
+	display:flex;
+	margin:left: 2em;
+	margin-top:.5em;
+	justify-content: center;
+	gap:5.2em;
+	
+}
+.box2 {
+	grid-column-start: 1;
+	grid-column-end:2;
+	grid-row-start:3;
+	grid-row-end: 5;
+	text-align:center;
+	border:solid;
+	background-color: #97A0ff;
+	font-family: "New Rocker", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	
+	
+}
+
+#message-box {
+    display: none;
+    position: absolute;
+    background-color: #f2f2f2;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.box3 {
+	
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row-start:3;
+	grid-row-end: 5;
+	font-family: "Castoro Titling","New Rocker", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight:bold;
+	font-size: 1.1em
+	
+}
+
+
+
+/* Character Creation Assistance Page */ 
+.wrapper_cca {
+  display: grid;
+	grid-template-columns: 1fr 1fr 4fr;
+	grid-template-rows: 1fr 1fr auto  ;
+	grid-auto-rows: 100px;
+	
+}
+* {
+  box-sizing: border-box;
+}
+
+.wrapper_cca {
+  border-radius: 5px;
+  background-color: #fff6d9;
+}
+
+.wrapper_cca > div {
+  border-radius: 1px;
+  padding: 1em;
+  color: #070707;
+}
+.titlecca{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start:1;
+	grid-row-end:1;
+
+	border-top: solid;
+	border-left:solid;
+	border-bottom:solid;
+	background-color: #97A0ff;
+	font-family: "New Rocker", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:1.5em;
+	display:flex;
+	margin:left: 2em;
+	margin-top:.5em;
+	gap:5.2em;
+}
+.box1cca {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start:1;
+	grid-row-end:1;
+	text-align: center;
+	border: solid;
+	background-color: #97A0ff;
+	font-family: "New Rocker", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:1.5em;
+	display:flex;
+	margin:left: 2em;
+	margin-top:.5em;
+	justify-content: center;
+	gap:5.2em;
+	
+}
+
+.box2cca {
+	grid-column-start: 1;
+	grid-column-end:2;
+	grid-row-start:3;
+	grid-row-end: 3;
+	text-align:center;
+	border:solid;
+	background-color: #97A0ff;
+	font-family: "New Rocker", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+
+#message-box {
+    display: none;
+    position: absolute;
+    background-color: #f2f2f2;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.box3cca {
+	background-color: #fff6d9;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start:3;
+	grid-row-end: 5;
+	font-family: "Castoro Titling","New Rocker", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	font-size: 1.1em
+	
+}
+
+
+
+
+a:link {
+	
+	color:black;
+	text-decoration:none;
+}
+
+a:visited {
+	
+	color: #2E302E;
+}
+
+a:hover {
+	
+	color:black;
+	text-decoration:underline;
+}
